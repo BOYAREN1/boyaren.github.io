@@ -150,7 +150,7 @@ body {
 
 .party {
   padding: 40px 20px;
-  background: ("/img/maxresdefault.jpg") center center/cover no-repeat;
+  background: ("img/maxresdefault.jpg") center center/cover no-repeat;
   background-attachment: fixed;
 }
 
