@@ -91,7 +91,7 @@ body {
 /* Базовые стили для всех устройств */
 .promo {
   min-height: 100vh;
-  background-image:("img/intro.jpg") center center/cover no-repeat;
+  background: url("img/intro.jpg") center center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
