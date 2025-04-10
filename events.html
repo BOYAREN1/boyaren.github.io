@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src\css\style.css">
+    <link rel="stylesheet" href="src\css\style.css.map">
+    <link rel="stylesheet" href="style.css">
+    <title>РУСИЧ</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="img/unnamed.jpg" alt="Логотип" class="logo">
+            <h1 class="site-title">GE | РУСИЧ</h1>
+        </div>
+        <button class="menu-toggle">☰ Меню</button>
+        <nav class="nav">
+            <button class="close-menu">×</button>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Сервер</a></li>
+                <li class="nav-item"><a href="events.html">Ивенты</a></li>
+                <li class="nav-item"><a href="rules.html">Правила</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header class="page-header">
+        <h1>КАЛЕНДАРЬ ИВЕНТОВ SQUAD</h1>
+        <p>Присоединяйтесь к организованным сражениям с сообществом</p>
+    </header>
+    
+    <div class="container-events">
+        <div class="filter-controls">
+            <div class="filter-group">
+                <label for="month">Месяц:</label>
+                <select id="month">
+                    <option value="all">Все</option>
+                    <option value="january">Январь</option>
+                    <option value="february">Февраль</option>
+                    <option value="march">Март</option>
+                    <option value="april">Апрель</option>
+                    <option value="may">Май</option>
+                    <option value="june">Июнь</option>
+                    <option value="july">Июль</option>
+                    <option value="august">Август</option>
+                    <option value="september">Сентябрь</option>
+                    <option value="october">Октябрь</option>
+                    <option value="november">Ноябрь</option>
+                    <option value="december">Декабрь</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="type">Тип ивента:</label>
+                <select id="type">
+                    <option value="all">Все</option>
+                    <option value="tournament">Турнир</option>
+                    <option value="training">Тренировка</option>
+                    <option value="fun">Развлекательный</option>
+                    <option value="charity">Благотворительный</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="region">Регион:</label>
+                <select id="region">
+                    <option value="all">Все</option>
+                    <option value="europe">Европа</option>
+                    <option value="na">Северная Америка</option>
+                    <option value="asia">Азия</option>
+                    <option value="oceania">Океания</option>
+                </select>
+            </div>
+            
+            <button class="signup-btn" style="max-width: 200px; margin-top: 28px;">Применить фильтры</button>
+        </div>
+        
+        <h2>Ближайшие ивенты</h2>
+        
+        <div class="calendar">
+            <div class="event-card">
+                <h3 class="event-title">Турнир "Врата Овертона"</h3>
+                <div class="event-date">15 ноября 2023, 20:00 МСК</div>
+                <div class="event-description">
+                    Крупномасштабный турнир 20vs20 с призовым фондом. Командная тактика и координация будут решающими факторами победы.
+                </div>
+                <div class="event-details">
+                    <span class="event-detail">Турнир</span>
+                    <span class="event-detail">Европа</span>
+                    <span class="event-detail">20vs20</span>
+                    <span class="event-detail">Призовой фонд: $500</span>
+                </div>
+                <button class="signup-btn">Зарегистрироваться</button>
+            </div>
+            
+            <div class="event-card">
+                <h3 class="event-title">Ночные рейды</h3>
+                <div class="event-date">18 ноября 2023, 22:00 МСК</div>
+                <div class="event-description">
+                    Специальный ивент с ночными картами и ограниченным HUD. Только NVG и фонарики. Реалистичный опыт ночных операций.
+                </div>
+                <div class="event-details">
+                    <span class="event-detail">Развлекательный</span>
+                    <span class="event-detail">Европа/США</span>
+                    <span class="event-detail">50vs50</span>
+                    <span class="event-detail">Особые правила</span>
+                </div>
+                <button class="signup-btn">Зарегистрироваться</button>
+            </div>
+            
+            <div class="event-card">
+                <h3 class="event-title">Тренировка для новичков</h3>
+                <div class="event-date">20 ноября 2023, 19:00 МСК</div>
+                <div class="event-description">
+                    Обучающий ивент для новых игроков. Опытные инструктора помогут освоить основы игры, тактики и работы в команде.
+                </div>
+                <div class="event-details">
+                    <span class="event-detail">Тренировка</span>
+                    <span class="event-detail">Все регионы</span>
+                    <span class="event-detail">Коучинг</span>
+                    <span class="event-detail">Бесплатно</span>
+                </div>
+                <button class="signup-btn">Зарегистрироваться</button>
+            </div>
+            
+            <div class="event-card">
+                <h3 class="event-title">Благотворительный марафон</h3>
+                <div class="event-date">25 ноября 2023, 12:00 МСК</div>
+                <div class="event-description">
+                    12-часовой марафон игры в Squad с сбором средств для благотворительной организации. Присоединяйтесь и поддержите!
+                </div>
+                <div class="event-details">
+                    <span class="event-detail">Благотворительный</span>
+                    <span class="event-detail">Весь мир</span>
+                    <span class="event-detail">Стрим</span>
+                    <span class="event-detail">Для всех</span>
+                </div>
+                <button class="signup-btn">Зарегистрироваться</button>
+            </div>
+        </div>
+        
+        <h2>Прошедшие ивенты</h2>
+        
+        <div class="calendar">
+            <div class="event-card">
+                <h3 class="event-title">Осада Фаллуджи</h3>
+                <div class="event-date">5 ноября 2023</div>
+                <div class="event-description">
+                    Исторический ивент с воссозданием реальных событий. Игроки могли принять участие в масштабной осаде города.
+                </div>
+                <div class="event-details">
+                    <span class="event-detail">Развлекательный</span>
+                    <span class="event-detail">Европа</span>
+                    <span class="event-detail">80 участников</span>
+                </div>
+                <button class="signup-btn" disabled>Завершено</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="footer-txt">© 2025 Клан "РУСИЧ" | Все права защищены</p>
+        <p class="footer-txt">Неофициальное сообщество игроков Squad. Мы не аффилированы с Offworld Industries.</p>
+        <div class="image-links-container">
+            <a href="#" class="image-link">
+                <img src="img/free-icon-telegram-2111646.png" alt="Телеграм">
+                <span class="image-caption">Наш канал</span>
+            </a>
+            <a href="#" class="image-link">
+                <img src="img/discord.png" alt="Дискорд">
+                <span class="image-caption">Наш сервер</span>
+            </a>
+        </div>
+    </footer>
+      
+    <script src="script.js"></script>
+</body>
+</html>
