@@ -432,6 +432,7 @@ select, input {
 }
 
 /* Карточки ивентов */
+/* Карточки ивентов */
 .calendar {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -481,6 +482,23 @@ select, input {
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 0.9em;
+}
+
+.signup-btn {
+  display: inline-block;
+  background-color: #f0a800;
+  color: #2a2a2a;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #e09b00;
+  cursor: pointer;
 }
 
 /* Кнопки */
