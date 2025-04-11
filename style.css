@@ -512,7 +512,7 @@ select, input {
   border-radius: 4px;
   margin-top: 15px;
   transition: background-color 0.3s;
-  width: 100%;
+  width: 90%;
   font-size: 16px;
 }
 
